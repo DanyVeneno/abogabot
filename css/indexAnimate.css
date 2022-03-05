@@ -1,0 +1,28 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #3663ff;
+}
+
+.animate__zoomInUp{
+    /*border: dashed 2px blue;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+
+
+}
+
+/*
+h4{
+    margin-left: 60px;
+    font-family: 'Shippori Antique B1', sans-serif;
+    font-size: medium;
+    
+    
+}*/
+
+

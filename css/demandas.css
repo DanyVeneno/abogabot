@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1d2049;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: relative;
+    margin: -10px;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #3663ff ;
+
+}
+ul li{
+    display: inline;
+    
+}
+
+
+/** Listado de Demandas **/
+.contenido-principal {
+    font-family: 'Shippori Antique B1', sans-serif;
+    width:80%;   
+    padding: 5rem auto;
+    margin:100px auto;
+    border-radius: 20px 20px 20px;
+}
+
+.backgrounddd{
+    position:relative;
+    width:100%;
+    height:120vh;
+    background: url(../imagenes/bdot.png);
+    background-repeat: repeat;
+    /*border:dashed 2px green;*/
+    margin-top: -100px;
+
+}
+#title{
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size:36px;
+    font-weight: 800;
+    color: rgba(230, 230, 230, 0.877);
+}
+
+
+.btn{
+    text-decoration: none;
+    background-color: #3663ff;
+    width: 120px;  
+    border-style: hidden;
+    border-radius: 5px;
+    padding: 2px auto;
+    color: #e6e6e6;
+    display: inline-block;
+
+}
+
+@media (min-width: 768px) { 
+    .listado-productos {
+        
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 2rem;
+        text-align: center;
+        
+       
+    }
+    .producto:nth-child(1) {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        border-radius: 20px 20px 20px;
+    }
+    .producto:nth-child(1)  {
+        height: 18rem;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px 20px 20px;
+    }
+    .producto:nth-child(2) {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        border-radius: 20px 20px 20px;
+    }
+    .producto:nth-child(2) ,
+    .producto:nth-child(3)  {
+        height: 18rem;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px 20px 20px;
+    }
+    .producto:nth-child(3) {
+        grid-column-start: 4;
+        grid-column-end: 7;
+        border-radius: 20px 20px 20px;
+    }
+    .producto:nth-child(4) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        border-radius: 20px 20px 20px;
+    }
+    .producto:nth-child(5) {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        border-radius: 20px 20px 20px;
+
+    }
+    .producto:nth-child(6) {
+        grid-column-start: 5;
+        grid-column-end: 7;
+        border-radius: 20px 20px 20px;
+        
+
+    }
+}
+
+.producto {
+   
+    background-color: rgba(38, 38, 38, 0.671);
+    margin-bottom: 2rem;
+}
+@media (min-width: 768px) { 
+    .producto {
+        margin-bottom: 0;
+    }
+}
+.producto:last-of-type {
+    margin-bottom: 0;
+}
+
+.texto-producto {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 2rem;
+}
+.texto-producto h3 {
+    margin: 0;
+    text-align: center;
+}
+.texto-producto p {
+    margin: 0 0 .5rem 0;
+    text-align: center;
+}
+.texto-producto .opcion {
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+footer{
+    position: relative;   
+    width: 100%; 
+    height: 65px; 
+    background-color: #3663ff;
+    z-index: 10;
+}
+.flex-container{
+
+    display: flex;
+    justify-content: center;
+
+}
+.flex-container > div {
+   
+    color: white;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+  
+    
+  }
