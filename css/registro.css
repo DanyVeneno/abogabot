@@ -1,4 +1,4 @@
-/***********************edicion nueva de blog*****************************/
+
 @font-face {
 	font-family: "Monserrat";
 	src: url(../font/Montserrat-MediumItalic.ttf);
@@ -170,11 +170,9 @@ button:hover {
 
 	.inner .right {
 		text-align: center;
-		/*align-self: center;*/
+		
 		padding: 0 2em 1.5em;
-		/*margin-top: 40% ;*/
-		/*justify-self: center;*/
-	}
+		
 
 	.inner .right input {
 		width: calc(100% - 1em);
